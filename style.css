@@ -1,0 +1,89 @@
+h1{
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 2px 1px yellow;
+    }
+    h1:hover{
+    color: lime;
+    }
+    img{
+    border-color: bisque;
+    }
+    h2{
+    color: gold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-size: 40px;
+    text-align: center;
+    }
+    h2:hover{
+    color: lime;
+    }
+    p{
+    font-size: 25px;
+    color: ghostwhite;
+    line-height: 1.2cm;
+    text-decoration: solid;
+    text-shadow: 2px 1px 1px red;
+    }
+    
+    table{
+    width: 100%;
+    table-layout: fixed;
+    border-color: aqua;
+    }
+    th{
+    height: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: darkgoldenrod;
+    }
+    tr:nth-child(even){
+    background-color: burlywood;
+    color: crimson;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    }
+    tr:nth-child(odd){
+    background-color: beige;
+    color: blue;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    
+    }
+    tr:hover{
+    background-color: aliceblue;
+    }
+    #caption{
+    font-size: 35px;
+    color: khaki;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .borderradius{
+    outline-style: dashed;
+    outline-offset: 10px;
+    outline-width: 2px;
+    box-shadow: 10px 20px 10px goldenrod;
+    border-style: double dotted dashed ridge;
+    border-color: black red gold green;
+    border-radius: 5px 10px 15px 25px;
+    border-width: 2px 3px 4px 5px;
+    background-color: bisque;
+    font-size: 25px;
+    color: brown;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow: 2px 3px 4px yellowgreen;
+    text-align: center;
+    }
+    h4,h5{
+    font-size: 25px;
+    color: yellowgreen;
+    text-align: justify;
+    }

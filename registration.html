@@ -8,45 +8,70 @@
     <link rel="stylesheet" href="reg.css">
 </head>
 <body style="background-color: black;">
+    <div class="parent">
+        <div class="header">
+            <h1>Coursemy</h1>
+        </div>
+    <div class="bodyy">
     <h1 style="text-align:center; color: azure;">REGISTRATION FORM</h1>
     <form action="">
-        <fieldset style="margin-left:300px;margin-right:300px;background-color: bisque;color: blue;border-radius: 15px;border-style:inset;border-color: brown;box-shadow: 10px 20px 5px lightpink;">
-            <legend style="color:crimson">Trainee Registration Details</legend>
+        <fieldset style="width:50%; margin-left: 25%; background-color: antiquewhite;color: blue;border-radius: 15px;border:5px solid brown;border-style:double;box-shadow: 10px 10px 5px chocolate;">
+            <legend style="color:crimson">Registration Details</legend>
             <label>First Name</label><br>
-            <input type="text" name="fname" required><br>
+            <input type="text" name="fname" style="width: 100%;" required><br>
             <label>Last Name</label><br>
-            <input type="text" name="lname" required><br>
-            <label>email</label><br>
-            <input type="email" name="email" required><br>
+            <input type="text" name="lname" style="width: 100%;" required><br>
+            <label>Email ID</label><br>
+            <input type="email" name="email" style="width: 100%;" required><br>
             <label>Password</label><br>
-            <input type="password" name="password" required><br>
+            <input type="password" name="password" style="width: 100%;" required><br>
             <label>Age</label><br>
-            <input type="number" required min="21" max="25"><br>
+            <input type="number" required min="21" max="25" style="width: 100%;"><br>
             <label>Date of Birth</label><br>
-            <input type="date" required><br>
+            <input type="date" style="width: 100%;" required><br>
             <label>Gender</label><br>
+            <div class="radioo">
             <input type="radio" id="gender" name="gender" value="Female">Female<br>
             <input type="radio" id="gender" name="gender" value="Male">Male<br>
+            </div>
             <label>Address</label><br>
             <textarea></textarea><br>
             <label>Select Course</label><br>
-            <select name="course">
-                <optgroup label="DOTNET">
-                    <option>.NET MVC</option>
-                    <option>.NET CORE</option>
-                </optgroup>
+            <select name="course" style="width:100%; margin-top:10px; margin-bottom:15px; padding:7px;">
                 <optgroup label="JAVA">
                     <option>SPRING</option>
                     <option>SPRING BOOT</option>
                 </optgroup>
+                <optgroup label="PYTHON">
+                    <option>Python Programming</option>
+                </optgroup>
+                <optgroup label="WEB DESIGN">
+                    <option>HTML,CSS & Javascript</option>
+                    <option>PHP</option>
+                </optgroup>
+                <optgroup label="DATABASE">
+                    <option>SQL</option>
+                    <option>MongoDB</option>
+                </optgroup>
+                <optgroup label="DOTNET">
+                    <option>DOTNET Core</option>
+                    <option>.ASP & C#</option>
+                </optgroup>
             </select><br><br>
-            <label>Certifications Taken</label><br>
-            <input type="checkbox" value="Microsoft Certified"><label>Microsoft Certified</label><br>
-            <input type="checkbox" value="Oracle Certified"><label>Oracle Certified</label><br>
-            <input type="checkbox" value="AZURE Certified"><label>AZURE Certified</label><br>
-            <input type="checkbox" value="MS SQL Certified"><label>MS SQL Certified</label><br><br>
-            <input type="submit">
+            <label>Certfications Achieved</label><br>
+            <div class="checkb">
+            <input type="checkbox" value="Microsoft Certified">Microsoft Certified<br>
+            <input type="checkbox" value="Google Certified">Google Certified<br>
+            <input type="checkbox" value="AWS Certified">AWS Certified<br>
+            <input type="checkbox" value="AZURE Certified">AZURE Certified<br>
+            <input type="checkbox" value="Cloud Certified">Cloud Certified<br>
+            </div>
+            <input type="submit" style="width: 100%; background-color: navy; color: lime; border: 3px solid yellow; border-radius: 15px; padding:10px; font-size: 20px;">
+            
             </fieldset>
     </form>
+    </div>
+    </div>
+    
 </body>
 </html>
